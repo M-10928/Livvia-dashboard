@@ -149,7 +149,7 @@ function Sidebar({ page, setPage, newCount }) {
       {/* Header : burger + logo */}
       <div style={{ padding: collapsed ? "18px 0" : "18px 16px", borderBottom: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: collapsed ? "center" : "space-between", gap: 10 }}>
         {!collapsed && (
-          src="/Logo_Livvia_Blanc_Seul.png" height={32} alt="Livvia" style={{ objectFit: "contain", flexShrink: 0 }}
+          src="/Logo_Livvia_Blanc_Seul.png" height={40} alt="Livvia" style={{ objectFit: "contain", flexShrink: 0 }}
         )}
         {collapsed && (
           <img src="/Icone_Logo_Livvia_Blanc.png" height={28} alt="Livvia" style={{ objectFit: "contain", flexShrink: 0 }} />
